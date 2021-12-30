@@ -1,0 +1,728 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed';
+}
+html{
+    scroll-behavior: smooth;
+}  
+
+.viewport{
+    height: 500px;
+    background:rgb(9, 196, 134); 
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 100% 77%, 0 77%, 0 51%);
+  
+
+
+}
+nav{
+    display:flex;
+}
+.txt{
+    display: flex;
+    margin-left: 9rem;
+    
+  
+position: absolute;
+
+}
+
+.spec{
+    display: flex;
+    color: white;
+    margin-left: 15px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.name{
+   display: flex;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.icons{
+
+    
+   position: absolute;
+   display: flex;
+   margin-left: 60rem;
+   margin-top: 4em;
+ 
+
+
+  
+  
+}
+
+    
+    
+
+#tt{
+    display: flex;
+    padding-left: 40px;
+
+   
+
+  
+}
+#fb{
+    display: flex;
+    padding-left: 80px;
+}
+#lk{
+    padding-left:120px;
+}
+#g{
+    padding-left: 160px;
+}
+#git{
+    padding-left: 210px;
+}
+#sk{
+    padding-left: 257px;
+}
+.top{
+    margin-top: 50px;
+}
+.me{
+ height: 400px;
+
+
+}
+.me{
+    position: absolute;
+
+    left: 0%;
+    cursor: pointer;
+    box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+    -webkit-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+    -moz-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+}
+.box{
+    display: flex   ;
+    position: absolute;
+    top:30% ;
+    left:10% ;
+    background: rgb(255, 255, 255);
+    padding: 0px;
+    height: 400px;
+    width: 80%;
+    box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+    -webkit-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+    -moz-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+}
+.txt2{
+    position: absolute;
+    top: 20%;
+    left: 43%;
+    color:rgb(54, 51, 51);
+    font-weight:lighter;
+    
+}
+.txt3{
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    color:rgb(9, 196, 134); 
+    font-weight:bolder;
+
+}
+.greet{
+    position: absolute;
+    top: 8%;
+    left: 43%;
+    background-color:rgb(9, 196, 134);  ;
+   color: white;
+   padding: 5px;
+    font-weight:bolder;
+
+
+}
+.hobb{
+    position: absolute;
+    top: 31%;
+    left: 43%;
+    font-weight: lighter;
+
+}
+hr{
+    position: absolute;
+    top: 55%;
+    left: 44.5%;
+    width: 580px;
+    
+}
+.nm{
+    display: flex;
+    position: absolute;
+    top: 57%;
+    left: 44.5%;
+    
+
+}
+.nm1{
+    display: flex;
+    position: absolute;
+    top: 57.3%;
+    left: 50%;
+    font-weight: lighter;
+
+}
+.ad{
+    display: flex;
+    position: absolute;
+    top: 62%;
+    left: 44.5%;
+
+}
+.ad1{
+    display: flex;
+    position: absolute;
+    top: 62.3%;
+    left: 50%;
+    font-weight: lighter;
+
+}
+.m{
+    display: flex;
+    position: absolute;
+    top: 68%;
+    left: 44.5%;
+
+
+}
+.m1{
+    display: flex;
+    position: absolute;
+    top: 68.3%;
+    left: 50%;
+    font-weight: lighter;
+
+
+
+}
+.p{
+    display: flex;
+    position: absolute;
+    top: 74%;
+    left: 44.5%;
+} 
+.p1{
+    display: flex;
+    position: absolute;
+    top: 74.3%;
+    left: 50%;
+    font-weight: lighter;
+
+}  
+.w{
+    display: flex;
+    position: absolute;
+    top:80%;
+    left: 44.5%;
+}
+.w1{
+    display: flex;
+    position: absolute;
+    top: 80.3%;
+    left: 50%;
+    font-weight: lighter;
+
+
+
+}
+.gnd{
+    display: flex;
+  position: absolute;
+  top: 85%;
+    background-color:rgb(9, 196, 134); 
+    padding: 5px;
+    height: 38px;
+    left: 41.6%;
+    width: 651px;
+  
+    
+
+
+}
+#tt1{
+    padding-left: 50px;
+}
+#fb1{
+    padding-left: 100px;
+}
+#lk1{
+    padding-left: 150px;
+}
+#g1{
+    padding-left: 200px;
+}
+#git1{
+    padding-left: 250px;
+}
+#sk1{
+    padding-left: 300px;
+}
+.logo1{
+    position: absolute;
+    left: 1%;
+    top: 30%;
+}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    .viewport{
+background-color: rgb(9, 196, 134);
+width: 370px;
+
+    }
+
+
+
+ .txt{
+     top:1px;
+     margin-left:7rem;
+     position: absolute;
+
+ }
+.icons{
+    position: absolute;
+    margin-left:20px;
+    margin-top:8em;
+}
+.me{
+   height: 310px;
+   width: 370px;
+   
+   
+}
+.box{
+    position: absolute;
+    top: 27%;
+    left: 0%;
+    height: 670px;
+    width: 370px;
+   
+
+
+
+}
+.greet{
+    position: absolute;
+    top: 48.6%;
+    left: 32%;
+
+}
+.txt3{
+    position: absolute;
+    top: 54%;
+    left: 24%;
+    font-size: 30px;
+}
+
+.txt2{
+    position: absolute;
+    top: 54%;
+    left: 8%;
+    font-size: 30px;
+
+}
+.hobb{
+    position: absolute;
+    top: 61%;
+    left: 22%;
+
+}
+
+.nm{
+    position: absolute;
+    top: 98%;
+    left: 16%;
+
+}
+hr{
+    position: absolute;
+   top:94%;
+   left: 11%;
+   width: 280px;
+   
+}
+.nm1{
+    position: absolute;
+    top: 98%;
+    left: 35%;
+
+}
+.ad{
+    position: absolute;
+    top: 103%;
+    left: 16%;
+}
+.ad1{
+    position: absolute;
+    top: 103%;
+    left: 35%;
+}
+.m{
+    position: absolute;
+    top: 107.4%;
+    left: 16%;
+
+}
+.m1{
+    position: absolute;
+    top: 107.4%;
+    left: 35%;
+
+}
+.p{
+    position: absolute;
+    top: 112%;
+    left: 16%;
+}
+
+.p1{
+    position: absolute;
+    top: 112%;
+    left: 35%;
+
+}
+.w{
+    position: absolute;
+    top: 117%;
+    left: 16%;
+
+}
+.w1{
+    position: absolute;
+    top: 117%;
+    left: 35%;
+
+}
+.gnd{
+    display: flex;
+    position: absolute;
+    top: 125%;
+      background-color:rgb(9, 196, 134); 
+      padding: 5px;
+      height: 40px;
+      left: 0%;
+      width: 360px;
+  
+    
+}
+.logo1{
+    position:absolute;
+    left: 3%;
+
+}
+#tt1{
+    padding-left: 50px;
+}
+#fb1{
+    padding-left: 90px;
+}
+#lk1{
+    padding-left: 130px;
+}
+#g1{
+    padding-left: 170px;
+}
+#git1{
+    padding-left: 210px;
+}
+#sk1{
+    padding-left: 250px;
+}
+}
+@media only screen  and (min-device-width : 1280px){
+    hr{
+         position: absolute;
+         top: 53%;
+    }
+    .nm{
+        position: absolute;
+        top: 55%;
+        left: 45%;
+
+    }
+    .nm1{
+        position: absolute;
+        top: 55%;
+        left: 52%;
+
+    }
+    .ad{
+        position: absolute;
+        top: 60%;
+        left: 45%;
+
+    }
+    .ad1{
+        position: absolute;
+        top: 60%;
+        left: 52%;
+
+    }
+    .m{
+        position: absolute;
+        top: 65%;
+        left: 45%;
+
+    }
+    .m1{
+        position: absolute;
+        top: 65%;
+        left: 52%;
+
+    }
+    .p{
+        position: absolute;
+        top: 70%;
+        left: 45%;
+
+    }
+    .p1{
+        position: absolute;
+        top: 70%;
+        left: 52%;
+
+    }
+    .w{
+        position: absolute;
+        top: 75%;
+        left: 45%;
+
+    }
+    .w1{
+        position: absolute;
+        top: 75%;
+        left: 52%;
+
+    }
+    .gnd{
+        position: absolute;
+        top:80% ;
+        left: 43.8%;
+        width: 580px;
+        height: 32px;
+        box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+        -webkit-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+        -moz-box-shadow: -1px -3px 37px -7px rgba(46,46,46,0.75);
+      
+        
+    }
+    .greet{
+        position: absolute;
+        left: 44%;
+    }
+    .txt2{
+        position: absolute;
+        left: 44%;
+    }
+    .txt3{
+        position: absolute;
+        left: 49%;
+    }
+    .hobb{
+        position: absolute;
+        left: 44%;
+    }
+    
+    @media only screen  and (min-device-width : 1920px){
+        .box{
+            height: 500px;
+            width: 1500px;
+        }
+        .greet{
+            position: absolute;
+            left: 40%;
+        }
+        .me{
+            height: 500px;
+            width: 550px;
+        }
+        .txt3{
+            top: 17%;
+            position: absolute;
+            
+            left: 43%;
+        }
+        .txt2{
+            position: absolute;
+            top: 17%;
+            left: 40%;
+        }
+        .hobb{
+            position: absolute;
+            top: 27%;
+            left: 40%;
+        }
+        hr{
+            position: absolute;
+            top: 45%;
+            left: 40%;
+        }
+        .nm{
+            display: flex;
+            position: absolute;
+            top: 47%;
+            left: 42%;
+            font-size: 20px;
+            
+        
+        }
+        .nm1{
+            display: flex;
+            position: absolute;
+            top: 47%;
+            left: 48%;
+            font-size: 20px;
+            font-weight: lighter;
+        
+        }
+        .ad{
+            display: flex;
+            position: absolute;
+            top: 52%;
+            left: 42%;
+            font-size: 20px;
+        
+        }
+        .ad1{
+            display: flex;
+            position: absolute;
+            top: 52%;
+            left: 48%;
+            font-size: 20px;
+            font-weight: lighter;
+        
+        }
+        .m{
+            display: flex;
+            position: absolute;
+            top: 57%;
+            left: 42%;
+            font-size: 20px;
+        
+        
+        }
+        .m1{
+            display: flex;
+            position: absolute;
+            top: 57%;
+            left: 48%;
+            font-size: 20px;
+            font-weight: lighter;
+        
+        
+        
+        }
+        .p{
+            display: flex;
+            position: absolute;
+            top: 62%;
+            left: 42%;
+            font-size: 20px;
+        } 
+        .p1{
+            display: flex;
+            position: absolute;
+            top: 62%;
+            left: 48%;
+            font-size: 20px;
+            font-weight: lighter;
+        
+        }  
+        .w{
+            display: flex;
+            position: absolute;
+            top: 67%;
+            left: 42%;
+            font-size: 20px;
+        }
+        .w1{
+            display: flex;
+            position: absolute;
+            top: 67%;
+            left: 48%;
+            font-size: 20px;
+            font-weight: lighter;
+        
+        
+        
+        }
+        .gnd{
+            position: absolute;
+            top: 71.3%;
+            height: 43px;
+            left: 38.7%;
+            width: 942px;
+        }
+        .txt{
+            position: absolute;
+            left: 10%;
+            top: 5%;
+           
+        }
+        .name{
+            margin-left: 15px;
+            font-size: 30px;
+        }
+        .spec{
+         
+            margin-left: 22px;
+            font-size: 20px;
+
+            font-weight: lighter;
+        }
+        .icons{
+              
+   position: absolute;
+   display: flex;
+   margin-left: 80rem;
+   margin-top: 8em;
+  
+        }
+    
+        #tt{
+            font-size: 25px;
+        
+           
+        
+          
+        }
+        #fb{
+            font-size: 25px;
+          
+        }
+        #lk{
+            font-size: 25px;
+         
+        }
+        #g{
+            font-size: 25px;
+          
+        }
+        #git{
+            font-size: 25px;
+           
+        }
+        #sk{
+            font-size: 25px;
+           
+        }     
+
+}
+
+
+
+
+
+
