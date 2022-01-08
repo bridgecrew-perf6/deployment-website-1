@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Prashantuprety||web developer</title>
-  <link rel="shortcut icon" type="image/jpg" href="favicon.jfif"/>
+  <link rel="shortcut icon" type="image/jpg" href="images/favicon.jfif"/>
 
 
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
@@ -10,6 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 	<link rel="stylesheet" type="text/css" href="default.css">
 	<link id="theme-style" rel="stylesheet" type="text/css" href="green.css">
@@ -37,13 +38,13 @@
 					
 
 					<ul id="navigation">
-						<li><a href="index.html#contact">Contact</a></li>
+						<li><a href="index2.html">Blog</a></li>
 
 					</ul>
 				</div>
 
 				<div class="left-column">
-					<img id="profile_pic" src="me.png">
+					<img id="profile_pic" src="images/me.png">
 					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
 					<div id="theme-options-wrapper">
@@ -93,17 +94,17 @@
 
 					<div id="skills">
 						<ul>
-							<li>Python</li>
+							<li>UI and UX</li>
 							<li>Django</li>
 							<li>JavaScript</li>
 							<li>React</li>
-							<li>Postgres</li>
+							<li>Figma</li>
 						</ul>
 
 						<ul>
-							<li>Google Maps API</li>
-							<li>JS Charts</li>
-							<li>AWS (RDS/S3)</li>
+							<li>PHP</li>
+							<li>Photoshop</li>
+							<li>SQL</li>
 							<li>Heroku</li>
 							<li>HTML/CSS</li>
 						</ul>
@@ -114,7 +115,7 @@
 
 				
 				<div class="social-links">
-					<img id="social_img" src="Screenshot (262).png">
+					<img id="social_img" src="images/Mygithub.png">
 					<h3>Facebook & Github<h3>
 
 					<a target="_blank" href="https://www.facebook.com/prashant.uprerty">Facebook: @Prashantuprety</a>
@@ -134,7 +135,7 @@
 
 				<div>
 					<div class="post">
-						<img class="thumbnail" src="lab-dash.jpg">
+						<img class="thumbnail" src="images/lab-dash.jpg">
 						<div class="post-preview">
 							<h6 class="post-title">Laboratory Management System</h6>
 							<p class="post-intro">Designed built & mantained a the lab managment system for FOI Laboratories</p>
@@ -145,7 +146,7 @@
 
 				<div>
 					<div class="post">
-						<img class="thumbnail" src="ecom.jpg">
+						<img class="thumbnail" src="images/ecom.jpg">
 						<div class="post-preview">
 							<h6 class="post-title">Online Store - CoursePost Title</h6>
 							<p class="post-intro">Online store with paypal payments intergration and guest user shopping</p>
@@ -156,7 +157,7 @@
 
 				<div>
 					<div class="post">
-						<img class="thumbnail" src="restro.png">
+						<img class="thumbnail" src="images/restro.png">
 						<div class="post-preview">
 							<h6 class="post-title">Resturant Website</h6>
 							<p class="post-intro">Fully transparent,responsive and cool looking resturant website</p>
@@ -168,9 +169,32 @@
 			</div>
 		</div>
 	</section>
-
-	<section class="s2">
-		<div class="main-container">
+	   <div class="skillsw"data-aos="slide-left">
+		<h3 class="txt1"style="text-align:center">Expertise</h3>
+	   
+		<h6 class="txt1">HTML</h6>
+		<div class="container">
+		  <div class="skills html">90%</div>
+		</div>
+		
+		<h6 class="txt1">CSS</h6>
+		<div class="container">
+		  <div class="skills css">80%</div>
+		</div>
+		
+		<h6 class="txt1">JavaScript</h6>
+		<div class="container">
+		  <div class="skills js">65%</div>
+		</div>
+		
+		<h6 class="txt1">PHP</h6>
+		<div class="container">
+		  <div class="skills php">60%</div>
+		</div>
+	  </div>
+	</div>
+	<section class="s2"  data-aos="slide-right">
+		<div class="main-container"></div>
 			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
 
@@ -194,6 +218,10 @@
 		</div>
 		<div id="status2"></div>
 	</section> 
+	<footer>
+		<h6 class="footer">copyright@Prashantuprety</h6>
+	</footer>
+	
 	<script>
 		var form = document.getElementById("contact-form");
 		
@@ -218,5 +246,15 @@
 	</script>
 
 	<script type="text/javascript" src="script.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+	  AOS.init(
+		  {
+			  offset:400,
+			  duration:1500
+		  }
+	  );
+	 
+	</script>
 </body>
 </html>

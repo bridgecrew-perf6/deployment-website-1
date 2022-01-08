@@ -250,7 +250,7 @@ h6 { font-size: 16px;}
 #preview{
 	width: 300px;
 	border:1.5px solid #17a2b8;
-	background-color: var(--previewBg);
+
 	padding:15px;
 	position: relative;
 }
@@ -401,6 +401,75 @@ h6 { font-size: 16px;}
 	justify-content: center;
 	
 }
+.gallery-top{
+	color: white;
+}
+.skillsw{
+	
+	display: flex;
+	flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+	background-color: var(--mainColor);
+    padding-bottom: 70px;
+
+	border:1px solid var(--borderColor);
+
+	
+
+}
+
+
+.txt1{
+
+	display: flex;
+	
+	align-items: flex-end;
+
+}
+.txt1{
+	display:flex;
+	
+	justify-content: left;
+}
+
+
+
+
+
+.container {
+  width: 50%; /* Full width */
+  background-color: #ddd;
+  display: flex;
+ 
+ 
+  /* Grey background */
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	align-self:center;
+	font-family: Russo One;
+}
+.skillsw{
+
+-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+}
+
+.html {width: 90%; background-color: #04AA6D;font-family:Russo One;} 
+.css {width: 80%; background-color: #2196F3;font-family:Russo One;} 
+.js {width: 65%; background-color: #f44336;font-family:Russo One;}
+.php {width: 60%; background-color: #808080;font-family:Russo One;} 
 
 @media screen and (max-width: 1200px){
 	.main-container{
