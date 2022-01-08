@@ -392,14 +392,14 @@ h6 { font-size: 16px;}
 	background-color: var(--buttonColor);
 	border:none;
 }
-#status{
-	color:white;
+
+#status2{
+	color: white;
 	display: flex;
+	font-family:"Roboto Mono";
+	background-color: green;
 	justify-content: center;
-    background-color: green;
-	padding: 5px;
 	
-	font-family: 'Roboto Mono';
 }
 
 @media screen and (max-width: 1200px){

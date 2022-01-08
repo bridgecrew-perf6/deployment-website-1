@@ -192,14 +192,14 @@
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
 		</div>
-		<div id="status"></div>
+		<div id="status2"></div>
 	</section> 
 	<script>
 		var form = document.getElementById("contact-form");
 		
 		async function handleSubmit(event) {
 		  event.preventDefault();
-		  var status = document.getElementById("status");
+		  var status = document.getElementById("status2");
 		  var data = new FormData(event.target);
 		  fetch(event.target.action, {
 			method: form.method,
