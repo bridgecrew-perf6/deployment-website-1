@@ -174,9 +174,9 @@
 			<a href=""></a>
 			<h3 style="text-align: center;">Get In Touch</h3>
 
-			<form id="contact-form">
-				<a name="contact"></a>
-
+			<form id="contact-form" action="https://formspree.io/f/xdobkjyb" method="POST">
+			
+			  
 				<label>Name</label>
 				<input class="input-field" type="text" name="name">
 
@@ -192,7 +192,30 @@
 				<input id="submit-btn" type="submit" value="Send">
 			</form>
 		</div>
+		<div id="status"></div>
 	</section> 
+	<script>
+		var form = document.getElementById("contact-form");
+		
+		async function handleSubmit(event) {
+		  event.preventDefault();
+		  var status = document.getElementById("status");
+		  var data = new FormData(event.target);
+		  fetch(event.target.action, {
+			method: form.method,
+			body: data,
+			headers: {
+				'Accept': 'application/json'
+			}
+		  }).then(response => {
+			status.innerHTML = "Thanks for your submission!";
+			form.reset()
+		  }).catch(error => {
+			status.innerHTML = "Oops! There was a problem submitting your form"
+		  });
+		}
+		form.addEventListener("submit", handleSubmit)
+	</script>
 
 	<script type="text/javascript" src="script.js"></script>
 </body>
